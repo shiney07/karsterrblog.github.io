@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html data-bs-theme="light" lang="tr">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blog Post - KARSTERR's Tech Blog</title>
+    <title>Blog Yazısı - KARSTERR'in Tech Blog'u</title>
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/Lora.css">
     <link rel="stylesheet" href="/assets/css/Open%20Sans.css">
@@ -12,129 +12,132 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="/en/index.html">KARSTERR's Tech Blog</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/en/index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/en/about.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/en/contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/en/all-posts.html">Blog Post</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/tr/index.html">KARSTERR'in Tech Blog'u</a>
+        <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigasyonu aç/kapat">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/tr/index.html">Ana Sayfa</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tr/about.html">Hakkımda</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tr/contact.html">İletişim</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tr/all-posts.html">Blog Yazıları</a></li>
+                <!-- Language Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dil
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/index.html">Türkçe</a></li>
+                        <li><a class="dropdown-item" href="/en/index.html">English</a></li>
+                        <li><a class="dropdown-item" href="/de/index.html">Deutsch</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <header class="masthead" style="background-image:url('/assets/img/data-science-guide/data-science-guide.png');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                    <div class="post-heading">
-                        <h1>Data Science Guide - Python Crash Course - Part I : Basics / Chapter I : Getting Started</h1>
-                        <h2 class="subheading">It's time to kick off our data science journey by diving into Python with the Python Crash Course book. Let's dive right in!
-                        </h2><span class="meta">Posted by&nbsp;<a href="#">KARSTERR</a>&nbsp;on July 22, 2024</span>
-                    </div>
+    </div>
+</nav>
+<header class="masthead" style="background-image:url('/assets/img/data-science-guide/data-science-guide.png');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                <div class="post-heading">
+                    <h1>Data Science Rehberi - Python Crash Course - Bölüm I: Temel Bilgiler / Bölüm I: Başlangıç</h1>
+                    <h2 class="subheading">Data Science yolculuğumuza "Python Crash Course" kitabı ile Python'a dalarak başlayalım. Hadi başlayalım!</h2>
+                    <span class="meta">Yayınlayan: <a href="#">KARSTERR</a> 22 Temmuz 2024</span>
                 </div>
             </div>
         </div>
-    </header>
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    
-                    <p>At the start of the chapter, the book talks about giving us the basics of Python programming and then showing us how to install the necessary programs and tools. After that, it'll guide us through creating a Python program called "hello_world.py".</p>
-                    
-                    <h2>Setting Up Your Programming Environment</h2>
-                    <p>Python works or gets installed in slightly different ways depending on the operating system. The book also makes it clear that it will delve into the specifics in the upcoming chapters.</p>
-                    
-                    <h3>Python Versions</h3>
-                    <p>Like other programs, Python also keeps developing, updating, and becoming more powerful. The book claims that 3.7 is the latest version of Python as of the book's writing. At the time of this blog post's writing, the latest version of Python is 3.12, and 3.13 is in the pre-release state. At this point in the book, we will determine whether Python is already installed on our system. It was also mentioned that there are still old projects using Python 2, but we need to use Python 3.</p>
-                    
-                    <h4>Running Snippets of Python Code</h4>
-                    <p>You can run Python's interpreter in a terminal window, allowing you to try bits of Python code without having to save and run an entire program.</p>
-                    <p>To give an example of this:</p>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started1.png" class="img-fluid" alt="Getting Started I">
-                    <p>The ">>>" prompt tells you to use the terminal window, and the bold text shows the code to type and then execute by pressing enter. Most examples in the book are small, self-contained programs that you'll run from your text editor, because you'll write most of your code in the text editor. Sometimes basic concepts will be shown in snippets run through a Python terminal session to demonstrate particular concepts more efficiently. When you see three angle brackets in a code listing, you&apos;re looking at code and output from a terminal session. We&apos;ll try coding in the interpreter on your system in a moment.</p>
-                    <p>We’ll also use a text editor to create a simple program called Hello World! that has become a staple of learning to program. There’s a long-held tradition in the programming world that printing a Hello world! message to the screen as your first program in a new language will bring you good luck. Such a simple program serves a very real purpose. If it runs correctly on your system, any Python program you write should work as well.</p>
-                    <p>In a moment, we will write our first program that will output “Hello World!”, a tradition among young programmers.</p>
-                    
-                    <h3>About Integrated Development Environments</h3>
-                    <p>Under this heading, the book tells us about the Sublime Text Editor, but I will tell you about the IDE's you can use. IDE stands for “Integrated Development Environment” and are the text editors in which we usually develop programs. They have a wide range of plugins and an integrated version control system.</p>
-                    <p>PyCharm is an integrated development environment (IDE) for Python, specifically designed for professional developers. It comes in two editions: Community and Professional. The Community edition is free and open-source, suitable for pure Python development, whereas the Professional edition offers advanced features like web development, database support, and scientific tools. On the other hand, VS Code is a lightweight, open-source code editor developed by Microsoft, with a strong focus on simplicity and performance. It supports various programming languages through extensions and has a large community contributing to its ecosystem. Spyder is an open-source IDE designed for scientific programming in Python. It integrates essential packages like NumPy, SciPy, and Matplotlib for data analysis, making it an excellent choice for scientists and engineers. Each of these IDE's caters to different needs and preferences within the Python development community.</p>
-                    <p>Which IDE you use is completely up to your freedom. If you are a beginner programmer, I recommend VSCode or PyCharm Community. Experienced programmers can also use PyCharm Professional or Spyder. If you consider using Sublime Text Editor, here is the explanation from the book:</p>
-                    
-                    <h2>Installing Python on Different Operating Systems</h2>
-                    <p>I will explain these parts in the shortest and simplest way.</p>
-                    
-                    <h3>Windows</h3>
-                    <p>Download the latest Python version from Python's official website and run the installation wizard. Select the “Add Python to PATH” option and click “Install Now” to install.</p>
-                    
-                    <h3>Linux/FreeBSD</h3>
-                    <p>You can install the "python" package through your package manager for your distribution.</p>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started2.png" class="img-fluid" alt="Getting Started II">
-                    <br>
-                    <br>
-                    
-                    <h3>MacOS</h3>
-                    <p>Download the latest Python version from the official website and run the installation wizard. Follow the prompts, and Python will be installed on your system.</p>
+    </div>
+</header>
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>Kitabın başlangıç bölümünde Python programlamanın temelleri açıklanır ve gerekli programların ve araçların nasıl kurulacağı gösterilir. Ardından, "hello_world.py" adlı bir Python programı oluşturulacak.</p>
 
-                    <h2>Running Python on Different Operating Systems</h2>
-                    <br>
-                    <h3>Windows</h3>
-                    <br>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started3.png" class="img-fluid" alt="Getting Started III">
-                    <br>
-                    <br>
-                    <h3>Linux/FreeBSD/MacOS</h3>
-                    <br>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started4.png" class="img-fluid" alt="Getting Started IV">
-                    <br>
-                    <br>
-                    <p>As a Linux user, I will use Linux commands throughout the guide.</p>
-                    <h2>Running Hello World Program</h2>
-                    <p>Before we write out first code, we need to create a hello_world.py file. hello_world is our file name and .py is the extension indicating that our file is Python code. After we create hello_world.py file, open it and enter this code line:</p>
-                    <h6>hello_world.py</h6>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started5.png" alt="Getting Started V">
-                    <p>Now save the file and run our first program.</p>
-                    <h6>Output of hello_world.py</h6>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started6.png" alt="Getting Started VI">
-                    <p>If you can't see anything after running the program, something might have gone wrong. Check every single character on the line you entered. Maybe you accidentally capitalized "print" or forgot to add one or both of the quotation marks or parentheses. Keep in mind that programming languages are picky about their <strong>syntax</strong>, so if you don't get it right, you'll definitely get errors. If you're struggling to get the program to run, check out the suggestions in the next section.</p>
-                    <h3>Troubleshooting hello_world.py</h3>
-                    <p>If you're having trouble running hello_world.py, here are some solutions to try:</p>
-                    <ul>
-                        <li>Check the error report traceback provided by Python for clues on what's causing the issue.</li>
-                        <li>Take a short break and then carefully review the code for any syntax errors like missing colons or mismatched quotes.</li>
-                        <li>Consider starting over by deleting hello_world.py and creating it again from scratch.</li>
-                        <li>Ask someone to follow the steps with you, as they might catch a missed step.</li>
-                        <li>Seek help from someone who knows Python or access the setup instructions online.</li>
-                        <li>Use resources like forums and live chat sites for assistance with any issues.</li>
-                    </ul>
-                    <h3>Running hello_world.py from Terminal</h3>
-                    <p>You can also run our hello_world.py program from terminal. First we have to go to the directory where the hello_world.py file is located. Then we will run our file using the python3 command:</p>
-                    <img src="/assets/img/data-science-guide/getting-started/getting-started7.png" alt="Getting Started VII">
-                    <p>And that's it for the first data science guide blog post. Hope you enjoy and learned from this guide. In the next section, we'll take a look at the essentials of programming: variables and data types. So stay tuned for next blog post of Data Science Guide.</p>
-                    </h2><span class="meta">Posted by&nbsp;<a href="#">KARSTERR</a>&nbsp;on July 22, 2024</span>
-                </div>
+                <h2>Programlama Ortamınızı Kurma</h2>
+                <p>Python, işletim sistemine göre biraz farklı şekilde kurulur. Kitap, gelecek bölümlerde bu ayrıntılara da değinecektir.</p>
+
+                <h3>Python Sürümleri</h3>
+                <p>Diğer programlar gibi Python da gelişir, güncellenir ve daha güçlü hale gelir. Kitap, yazıldığı sırada en son sürümün 3.7 olduğunu iddia ediyor. Bu yazının hazır olduğu sırada en son Python sürümü 3.12'dir ve 3.13 önizleme aşamasındadır. Kitapta bu noktada Python'un sisteminizde zaten kurulu olup olmadığını kontrol edeceğiz. Ayrıca, hala Python 2 kullanan eski projeler olduğunu da belirtiyor, ancak Python 3 kullanmalıyız.</p>
+
+                <h4>Python Kod Parçacıklarını Çalıştırma</h4>
+                <p>Küçük Python kod parçacıklarını denemek için terminal penceresinde Python yorumlayıcısını çalıştırabilirsiniz, böylece tüm bir programı kaydedip çalıştırmanız gerekmez.</p>
+                <p>Örneğin:</p>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started1.png" class="img-fluid" alt="Başlangıç I">
+                <p>">>>" istemi size terminal penceresini kullanmanız gerektiğini gösterir ve kalın yazı ile gösterilen metin, gireceğiniz ve ardından Enter tuşuna basarak çalıştıracağınız koddur. Kitaptaki çoğu örnek, bir metin düzenleyicisinde çalıştırdığınız küçük, bağımsız programlardır. Temel kavramlar bazen Python terminal oturumunda kod parçacıklarıyla gösterilir, böylece belirli kavramları daha verimli bir şekilde gösterebiliriz. Üç büyük üçgen işareti gördüğünüzde, kod ve çıktı bir terminal oturumundan alınmıştır. Sistemdeki Python kodlamasına şimdi başlayacağız.</p>
+                <p>Bir Hello World! programı oluşturmak için bir metin düzenleyici kullanacağız, bu program programlama öğrenme sürecinin ayrılmaz bir parçası haline gelmiştir. Ekranda "Hello World!" mesajı yazdırmanın uzun bir gelenek olduğunu ve genç programcılar arasında uğurlu bir başlangıç olarak kabul edildiğini biliyoruz. Bu basit program çok gerçek bir amaca hizmet eder. Eğer doğru şekilde çalışırsa, yazacağınız diğer Python programları da çalışacaktır.</p>
+                <p>Yakında ilk programımızı "Hello World!" mesajını yazdırarak yazacağız ve bu, genç programcılar arasında bir gelenektir.</p>
+
+                <h3>Entegre Geliştirme Ortamları (IDE'ler) Hakkında</h3>
+                <p>Bu başlık altında kitap, Sublime Text Editörü'nden bahsediyor ama size kullanabileceğiniz IDE'leri tanıtacağım. IDE, "Entegre Geliştirme Ortamı" anlamına gelir ve genellikle program geliştirdiğimiz metin düzenleyicileridir. Geniş bir eklenti yelpazesi ve entegre bir versiyon kontrol sistemi sunarlar.</p>
+                <p>PyCharm, Python için özel olarak geliştirilmiş, profesyonel geliştiriciler için tasarlanmış bir entegre geliştirme ortamıdır. İki sürümü vardır: Community ve Professional. Community sürümü ücretsiz ve açık kaynak olup, yalnızca Python geliştirme için uygundur, Professional sürümü ise web geliştirme, veritabanı desteği ve bilimsel araçlar gibi gelişmiş özellikler sunar. Diğer tarafta, VS Code, Microsoft tarafından geliştirilmiş hafif, açık kaynaklı bir kod editörüdür. Çeşitli programlama dilleri için eklentiler sunar ve büyük bir topluluk tarafından desteklenir. Spyder ise bilimsel Python programlama için geliştirilmiş açık kaynaklı bir IDE'dir. NumPy, SciPy ve Matplotlib gibi temel paketleri entegre eder ve bu nedenle bilim insanları ve mühendisler için mükemmel bir seçenektir. Bu IDE'lerin her biri, Python geliştirici topluluğundaki farklı ihtiyaç ve tercihlere hitap eder.</p>
+                <p>Hangi IDE'yi kullanacağınız size kalmış. Eğer bir acemiyseniz, VSCode veya PyCharm Community öneririm. Deneyimli programcılar ise PyCharm Professional veya Spyder kullanabilir. Sublime Text Editor'ü düşünüyorsanız, işte kitaptan açıklama:</p>
+
+                <h2>Python'un Farklı İşletim Sistemlerinde Kurulumu</h2>
+                <p>Bu bölümleri en kısa ve basit şekilde açıklayacağım.</p>
+
+                <h3>Windows</h3>
+                <p>Python'un en son sürümünü resmi Python web sitesinden indirin ve yükleyiciyi çalıştırın. "Python'u PATH'e ekle" seçeneğini seçin ve "Şimdi yükle"ye tıklayarak kurulumu tamamlayın.</p>
+
+                <h3>Linux/FreeBSD</h3>
+                <p>Dağıtımınızın paket yöneticisi aracılığıyla "python" paketini kurabilirsiniz.</p>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started2.png" class="img-fluid" alt="Başlangıç II">
+
+                <h3>MacOS</h3>
+                <p>Mac kullanıcıları, Homebrew paket yöneticisini kullanarak Python'u yükleyebilirler. Terminal penceresinde aşağıdaki komutu çalıştırın:</p>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started3.png" class="img-fluid" alt="Başlangıç III">
+
+                <h2>Python'un Çalıştırılması</h2>
+                <p>İlk Python programımızı çalıştırmadan önce "hello_world.py" adında bir dosya oluşturmamız gerekecek. hello_world dosya adımız, .py ise Python kodu içerdiğini belirten uzantıdır. Dosyayı oluşturduktan sonra açın ve şu kodu girin:</p>
+                <h6>hello_world.py</h6>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started4.png" alt="Başlangıç IV">
+                <p>Dosyayı kaydedin ve ilk programımızı çalıştırın.</p>
+                <h6>hello_world.py Çıktısı</h6>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started5.png" alt="Başlangıç V">
+                <p>Programı çalıştırdığınızda hiçbir şey görmüyorsanız, bir şeyler yanlış gitmiş olabilir. Girilen her bir karakteri kontrol edin. Belki "print" kelimesini büyük harfle yazmış olabilirsiniz veya bir veya iki tane tırnak işareti veya parantez eksik olabilir. Programlama dilleri sözdizimi konusunda seçicidir, bu yüzden doğru yapmazsanız, kesinlikle hatalar alırsınız. Programı çalıştırmada zorluk yaşıyorsanız, bir sonraki bölümdeki önerilere göz atın.</p>
+
+                <h3>hello_world.py Hatalarının Giderilmesi</h3>
+                <p>hello_world.py'yi çalıştırmada sorun yaşıyorsanız, deneyebileceğiniz bazı çözümler:</p>
+                <ul>
+                    <li>Python'un hata mesajı izini kontrol ederek sorunun ne olduğunu anlamaya çalışın.</li>
+                    <li>Kısa bir ara verin ve ardından kodunuzu dikkatlice kontrol edin. Sözdizimi hataları, eksik iki nokta veya eşleşmeyen tırnak işaretleri gibi şeyler arayın.</li>
+                    <li>hello_world.py'yi silip yeniden oluşturmayı düşünün.</li>
+                    <li>Biriyle birlikte adımları takip edin, belki kaçırdığınız bir adım fark edebilirler.</li>
+                    <li>Python bilen birinden yardım isteyin veya çevrimiçi kurulum talimatlarına başvurun.</li>
+                    <li>Sorunlarla ilgili yardım almak için forumlar ve canlı sohbet sayfalarını kullanın.</li>
+                </ul>
+
+                <h3>hello_world.py'yi Terminal Üzerinden Çalıştırma</h3>
+                <p>hello_world.py programını terminal üzerinden de çalıştırabilirsiniz. Öncelikle hello_world.py dosyasının bulunduğu dizine geçmeliyiz. Ardından dosyayı python3 komutu ile çalıştırıyoruz:</p>
+                <img src="/assets/img/data-science-guide/getting-started/getting-started6.png" alt="Başlangıç VI">
+
+                <p>Ve Data Science Rehberi'nin ilk blog yazısı burada sona eriyor. Umarım keyif almışsınızdır ve bu kılavuzdan bir şeyler öğrenmişsinizdir. Bir sonraki bölümde, programlamanın temellerine bakacağız: değişkenler ve veri türleri. Bir sonraki blog yazısı için bizi takip etmeye devam edin.</p>
+                <span class="meta">Yayınlayan: <a href="#">KARSTERR</a> 22 Temmuz 2024</span>
             </div>
         </div>
-    </article>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a href="https://github.com/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="https://linkedin.com/in/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="https://instagram.com/karsterr_"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                    </ul>
-                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;KARSTERR's Tech Blog 2024</p>
-                </div>
+    </div>
+</article>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="https://github.com/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/in/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                    <li class="list-inline-item"><a href="https://instagram.com/karsterr_"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                </ul>
+                <p class="text-muted copyright">Copyright&nbsp;©&nbsp;KARSTERR'in Tech Blog'u 2024</p>
             </div>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/clean-blog.js"></script>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/clean-blog.js"></script>
 </body>
 
 </html>
