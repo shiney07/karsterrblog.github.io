@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Blog Post - KARSTERR's Tech Blog</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/Lora.css">
+    <link rel="stylesheet" href="/assets/css/Open%20Sans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/en/index.html">KARSTERR's Tech Blog</a>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/en/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en/about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en/contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en/all-posts.html">Blog Post</a></li>
+                    <!-- Language Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/index.html">Türkçe</a></li>
+                            <li><a class="dropdown-item" href="/en/index.html">English</a></li>
+                            <li><a class="dropdown-item" href="/de/index.html">Deutsch</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('/assets/img/immutable-linux/linux.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="post-heading">
+                        <h1>The Power of Digital Minimalism: Reclaiming Control and Tranquility</h1>
+                        <span class="meta">Posted by&nbsp;<a href="#">KARSTERR</a>&nbsp;on July 15, 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <p>In the always changing world of Linux distributions, immutable systems have become a cool way to manage and secure environments. Unlike the old-school distributions, where updates and changes could cause problems, immutable Linux distributions keep things stable by sticking to a read-only file system. This means the core operating system stays the same after deployment, giving you stability, predictability, and better security. This article will dig into the idea of immutable Linux distributions, checking out their perks, uses, and some top examples in modern computing.</p>
+                    <p>There are unique immutable Linux distributions which I prefered and used:</p>
+
+                    <h2>Fedora Silverblue</h2>
+                    <p>Fedora Silverblue stands out as a top-notch immutable Linux distribution, leveraging OSTree technology for seamless system updates. This approach guarantees that updates are either applied entirely or not at all, ensuring a stable system. Should any issue arise, users can effortlessly revert to the previous state.</p>
+                    <p>The distribution relies on Flatpak for software installation, providing a secure environment that enhances system security and simplifies software distribution.</p>
+                    <p>With its GNOME integration, Fedora Silverblue delivers a modern desktop experience. By separating the core system from applications, users can personalize their software while maintaining a reliable system.</p>
+                    <p>In essence, Fedora Silverblue caters to both developers and everyday users who prioritize stability, security, and ease of use in their Linux environment. Its innovative approach to updates and software management sets a high standard for Linux distributions.</p>
+
+                    <h2>Bazzite</h2>
+                    <p>Bazzite is a game-changer in the Linux gaming world. It's designed to enhance gaming experiences on different platforms, like the Steam Deck and desktop systems. Bazzite is based on Fedora Silverblue and is made to work with a wide range of hardware by using drivers from ublue-os repositories.</p>
+                    <p>It comes with advanced features like the fsync kernel for great HDR, NVK for non-Nvidia setups, and hardware-accelerated codec support, all aimed at creating a top-notch gaming environment. Bazzite also includes optimizations such as LatencyFleX, vkBasalt, and MangoHud, along with Valve’s KDE themes and the System76-Scheduler. These improvements give users lots of options for customization and help boost performance, providing a seamless gaming experience.</p>
+                    <p>Whether it's on a handheld device, desktop setup, or home theater PC, Bazzite has tailored versions like the bazzite-deck, each one optimized for excellent gaming performance and user experience. For gamers and enthusiasts looking to enhance their gaming setup, Bazzite offers cutting-edge technology and user-friendly customization, setting a new standard for gaming excellence.</p>
+
+                    <h2>NixOS</h2>
+                    <p>NixOS stands out among Linux distributions thanks to its revolutionary approach to managing packages and system configuration. Using the Nix package manager, NixOS ensures a functional and declarative system setup, where every package and configuration change is contained and reproducible. This streamlined approach facilitates seamless system upgrades and rollbacks.</p>
+                    <p>Embracing a purely functional philosophy, NixOS defines the entire system state through a single configuration file. This simplifies system administration and enhances stability by averting configuration drift and dependency conflicts. With Nix expressions, users can consistently and modularly define their system setup, encompassing core services to desktop environments.</p>
+                    <p>Furthermore, NixOS boasts a vibrant, community-driven ecosystem of packages and configurations, enabling extensive customization for servers, applications, and desktops. By offering flexibility and scalability without compromising system integrity, NixOS empowers users to craft tailored, resilient systems.</p>
+
+                    <h2>VanillaOS</h2>
+                    <p>Vanilla OS shines brightly as an exciting choice for users who crave a powerful, personalized experience enriched with state-of-the-art features. Its robust NVIDIA driver support caters to a wide range of applications, from gaming to machine learning and 3D rendering, ensuring an unparalleled performance. The seamless integration of restricted codecs paves the way for effortless multimedia playback and gaming, delighting users with diverse interests and preferences.</p>
+                    <p>At the heart of Vanilla OS is the user-friendly GNOME desktop environment, designed to make system navigation feel intuitive and efficient. What truly sets it apart are the innovative tools like Apx and Vib, which empower users to customize their workspaces – individually or collaboratively. Apx streamlines the customization process, while Vib expands the system's versatility by enabling the creation of OCI images for flexible deployment across different Linux environments.</p>
+                    <p>The ABRoot utility stands as a testament to Vanilla OS's dedication to system integrity and reliability. Its unique approach to managing configurations and updates ensures a seamless experience for users. Vanilla OS is a forward-thinking platform that seamlessly blends performance with adaptability, making it a standout choice for those who value usability, security, and innovation in the dynamic landscape of operating systems.</p>
+
+                    <h2>Conclution</h2>
+                    <p>What are your thoughts on immutable Linux distros? Are they an absolute necessity? Are you yearning to swap out the current popular options on your system with one of these in the future? Please feel free to share your thoughts.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="https://github.com/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/in/karsterr/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="https://instagram.com/karsterr_"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;KARSTERR's Tech Blog 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/clean-blog.js"></script>
+</body>
+
+</html>
